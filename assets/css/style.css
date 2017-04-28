@@ -1,0 +1,451 @@
+.logoBlanco {
+  display: inline-block;
+}
+
+#seccion1 {
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  height: 20%;
+}
+
+ul {
+  display: inline-block;
+  margin-left: 15%;
+}
+
+#logo {
+  display: inline-block;
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 10%;
+}
+
+nav {
+  width: 100%;
+  display: inline-block;
+  margin: 1% auto;
+}
+
+nav:hover {
+  color: #FF00BF;
+}
+
+.menu-li {
+  display: inline;
+  margin: 20px;
+  font-size: 1rem;
+  list-style: none;
+}
+
+.menu-li:hover {
+  color: #FF00BF;
+}
+
+.botones {
+  background-color: rgba(51, 52, 7, 0);
+  border-radius: 2%;
+  font-family: inherit;
+  font-size: .8rem;
+  border-radius: 9%;
+  padding: 1%;
+  width: 8%;
+  border-color: #ccc;
+}
+
+#singUp {
+  background-color: rgba(51, 52, 7, 0.1);
+  display: none;
+  border-color: #FF00BF;
+  color: #FF00BF;
+}
+
+#logIn {
+  background-color: rgba(51, 52, 7, 0.1);
+  color: white;
+  border-color: #FF00BF;
+}
+
+.botones:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+  opacity: 2;
+}
+
+
+/*Seccion 3-5*/
+
+#secciones {
+  display: block;
+  margin: 0;
+}
+
+.seccion-textos {
+  display: inline-block;
+  width: 15%;
+  margin-top: 8%;
+  margin-right: 14%;
+  margin-left: 5%;
+}
+
+.flotar-izquierda {
+  float: left;
+}
+
+.flotar-derecha {
+  float: right;
+}
+
+.tamaño {
+  width: 65%;
+  display: inline-block;
+}
+
+.tamaño img {
+  width: 100%;
+}
+
+.tamaño iframe {
+  width: 100%;
+  height: 506px;
+}
+
+.texo {
+  margin-top: 25%;
+}
+
+.parrafos {
+  font-size: 17px;
+  width: 145%;
+}
+
+.seccion-textos>p:first-child {
+  letter-spacing: 0.2em;
+}
+
+.seccion-textos>h3 {
+  font-size: 25px;
+  letter-spacing: 0.2em;
+}
+
+
+/* Imagen telefono seccion 2-1 */
+
+#texto {
+  color: white;
+  display: inline-block;
+  margin-top: 50%;
+  margin-left: 12%;
+  padding-bottom: 3%;
+}
+
+.tituloTexto {
+  font-size: 30px;
+  line-height: .01em;
+}
+
+.resumentexto {
+  font-size: 17px;
+  padding-top: 5px;
+}
+
+#imagenTelefono {
+  display: inline-block;
+  z-index: 2;
+  top: 10px;
+  left: 90%;
+}
+
+.telefono {
+  width: 450px;
+  height: 450px;
+}
+
+
+/* Estilo seccion2 */
+
+#seccion2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #6c1d86;
+}
+
+#imagen-seccion2 {
+  background-image: url(fondos/homepage-lyft.jpg);
+  background-size: cover;
+  background-repeat: round;
+  width: 100%;
+  height: 55%;
+  position: absolute;
+}
+
+#contenedor-formulario {
+  width: 40%;
+  height: auto;
+  background-color: white;
+  position: absolute;
+  padding: 1.5%;
+  right: 0%;
+  top: 10%;
+  z-index: 2;
+}
+
+#seccion2 h1 {
+  color: #352384;
+  font-size: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.esconderFormulario {
+  display: none;
+}
+
+.extenderFormulario {
+  display: inline-block;
+}
+
+#seccion2 span {
+  display: block;
+  margin: 0;
+  color: #352384;
+  font-size: 15px;
+}
+
+#seccion2 a {
+  color: #ff00bf;
+  text-decoration: none;
+}
+
+#ponerSubrayado {
+  color: #ff00bf;
+}
+
+#seccion2 .linea {
+  width: 350px;
+  margin-bottom: 15px;
+}
+
+#seccion2 input.salto {
+  display: block;
+  width: 496px;
+}
+
+#seccion2 input {
+  margin: 20px 0px 20px 0px;
+  border: 0px;
+  border-bottom: 1px solid black;
+  font-size: 20px;
+  color: #bfc7d9;
+}
+
+.terminos {
+  display: block;
+  font-size: 11px;
+}
+
+.boton-rosa {
+  background-color: #ff00bf;
+  border-radius: 10px;
+  font-size: 20px;
+  border: 0px;
+  padding: 17px;
+  font-family: inherit;
+  font-weight: 100;
+  display: inline-block;
+  color: white;
+  width: 200px;
+}
+
+.boton-nada {
+  font-family: inherit;
+  font-size: 20px;
+  border: 0px;
+  color: #728099;
+  background: none;
+  margin-left: 20px;
+  text-decoration: underline;
+}
+
+
+/*seccion6*/
+
+#seccion6 {
+  clear: both;
+}
+
+.producto {
+  display: inline-block;
+  margin-left: 10%;
+  width: 500px;
+}
+
+.noticias {
+  display: inline-block;
+  margin-left: 3%;
+  width: 500px;
+}
+
+.titulo6 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.tema6 {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.resumen6 {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.leerMas {
+  font-size: 17px;
+  color: #333447;
+  font-weight: bold;
+  width: 25%;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 10%;
+  border: 1px solid #333447;
+  background-color: inherit;
+  margin-top: 15px;
+}
+
+#seccion7 {
+  margin-top: 4%;
+  background-color: #352384;
+  position: relative;
+}
+
+.ubicacion {
+  margin-left: 10%;
+  margin-top: -2%;
+  width: 16.5%;
+  height: 16.5%;
+}
+
+.contenidoUbicacion {
+  width: 40%;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+}
+
+.tituloUbicacion {
+  font-size: 26px;
+  color: white;
+  letter-spacing: .03em;
+}
+
+.pUbicacion {
+  font-size: 18px;
+  color: #9E99A4;
+  margin-bottom: 0;
+}
+
+.aUbicacion {
+  text-decoration: none;
+  color: #FF00BF;
+}
+
+
+/*Estilos footer*/
+
+.seccion8 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  background-color: #333447;
+}
+
+.columna {
+  float: left;
+  display: inline-block;
+  margin: 30px 0px 0px 0px;
+  width: calc((100%-1%)/5);
+}
+
+.columna>li {
+  display: block;
+}
+
+.columna>li>a {
+  color: white;
+  text-decoration: none;
+}
+
+.columna>li>a:hover {
+  color: #FF00BF;
+  text-decoration: underline;
+}
+
+.columna>li>img {
+  width: 167px;
+  height: 50px;
+}
+
+.redes {
+  clear: both;
+  width: 34%;
+  margin: 0 auto;
+}
+
+.redes>a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.redes>a>img {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  float: left;
+  margin-left: 65px;
+}
+
+.redes>hr {
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  clear: both;
+}
+
+.legales {
+  color: white;
+  font-size: 0.9em;
+  width: calc((100%-40%)/1.5);
+}
+
+.legales>li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.legales>li>a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.9em;
+}
+
+.legales>li>a:hover {
+  color: #FF00BF;
+  text-decoration: underline;
+}
+
+.limpiar {
+  clear: both;
+  height: 50px;
+}
+
+.displayInline {
+  display: inline;
+}
+
+.ocultar {
+  display: none;
+}
